@@ -1,0 +1,91 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background: url(/Images/bird.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+/* Start Header */
+#header{
+    background-color: #800000;
+    text-decoration: none;
+    border: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navbar-header h1{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow:2px 2px red, 4px 4px black;
+    font-weight: 500;
+}
+.nav-list ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.nav-list li{
+    float: left;
+}
+.nav-list a{
+    display: block;
+    text-decoration: none;
+    color: red;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 12px 14px;
+    
+}
+.nav-list a:hover{
+    color: white;
+    text-shadow: 1.5px 1.5px blue;
+    font-size: 1em;
+}
+/* End Header */
+/* Start Main */
+#main{
+    margin-top: 150px;
+}
+#main p{
+    /* border: 2px solid black; */
+    width: 80%;
+    float: right;
+    color: black;
+}
+#main img {  
+    width: 170px;
+    height: 120px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+/* End Main */
+/* Start Footer */
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #800000;
+    width: 100%;
+}
+.contact{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+.text-center{
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+/* End Footer */
